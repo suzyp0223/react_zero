@@ -1,3 +1,4 @@
+import React from 'react';
 // React Component!
 // Follow <-> following
 function FollowButton() {
@@ -31,14 +32,14 @@ function FollowButton() {
   };
 
   // JS -> JSX
-  //   return React.createElement(
-  //     "div",
-  //     {
-  //       onClick: () => setFollowing(!following),
-  //       style: following ? followingBtnStyle : followBtnStyle,
-  //     },
-  //     following ? "Following" : "Follow"
-  //   );
+    // return React.createElement(
+    //   "div",
+    //   {
+    //     onClick: () => setFollowing(!following),
+    //     style: following ? followingBtnStyle : followBtnStyle,
+    //   },
+    //   following ? "Following" : "Follow"
+    // );
 
   // JSX code
   return <div onClick={() => setFollowing(!following)}
@@ -48,3 +49,5 @@ function FollowButton() {
   </div>;
 
 }
+
+export default FollowButton;
