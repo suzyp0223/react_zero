@@ -2,7 +2,9 @@ import React from 'react';
 import logo from "../logo.svg";
 
 
-export default function Header() {
+const Header = (props) => {
+  // props: object
+
   return (
     <div className="App">
       <header className="App-header">
@@ -16,9 +18,11 @@ export default function Header() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {props.title}
         </a>
       </header>
     </div>
   );
 }
+
+export default Header;
