@@ -1,13 +1,13 @@
 import './App.css';
 // import Counter from "./components/Counter.js";
 // import Counter2 from "./components/Counter2.js";
-import Calculator from "./components/Calculator.js";
+import Clock from "./components/Clock.js";
 
 
 function App() {
   return (
     <div className="App">
-      <Calculator />
+      <Clock />
     </div>
   );
 }
