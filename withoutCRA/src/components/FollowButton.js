@@ -42,12 +42,12 @@ function FollowButton() {
     // );
 
   // JSX code
-  return <div onClick={() => setFollowing(!following)}
+  return ( <div onClick={() => setFollowing(!following)}
     style={following ? followingBtnStyle : followBtnStyle}
   >
     {following ? "Following" : "Follow"}
-  </div>;
-
+  </div>
+  );
 }
 
 export default FollowButton;

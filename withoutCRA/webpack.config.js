@@ -28,5 +28,4 @@ module.exports = {
     static: './dist',
     hot: true,
   },
-
 };
